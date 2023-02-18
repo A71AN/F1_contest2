@@ -1,0 +1,190 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap");
+.tab{
+    border-radius: 10px;
+}
+
+.para1{
+    color: white;
+}
+.head3{
+    color: white;
+    font-size: xx-large;
+    font-weight: 200;
+}
+
+.head1{
+    font-weight: 200;
+    color: white;
+    padding: 30px;
+}
+body {
+  color:#808080;
+  
+  background-color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+}
+h1 {
+  /* position: absolute; */
+  background: #111111;
+  border: 2px solid #808080;
+  border-radius: 20px;
+  margin: 10px 20px;
+  padding: 20px 40px;
+}
+
+.container {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.left {
+  /* position: relative; */
+  /* left: 0; */
+  display: flex;
+  flex-direction: column;
+}
+
+.leftdiv {
+  /* position:absolute; */
+  display: flex;
+  /* flex-flow: column wrap; */
+  align-items: center;
+  color: white;
+
+  /* justify-content: center; */
+  /* gap: 15px; */
+  border: 2px solid #808080;
+  border-radius: 20px;
+  /* height: 250px; */
+  width: 25vw;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  padding: 20px;
+}
+ul{
+    padding-left: 10px;
+}
+li{
+    padding: 5px;
+}
+.flow {
+  /* text-align: left; */
+  flex-flow: column wrap;
+}
+.right {
+  border: 2px solid #808080;
+  border-radius: 20px;
+  height: 135vh;
+  width: 80vw;
+  margin: 0 20px;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  border: 2px solid #808080;
+}
+input[type="checkbox"] {
+  /* accent-color: desired-color */
+  background-color: #1e1e1e !important;
+}
+thead {
+  border-bottom: 2px solid #808080;
+}
+th,
+td {
+  border-right: 2px solid #808080;
+}
+.text {
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  h1 {
+    margin: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .leftdiv {
+    width: 70vw;
+  }
+  .right {
+    width: 70vw;
+    height: 140vh;
+  }
+}
+
+tbody td:nth-child(1),td:nth-child(2){
+    text-align: center;
+}
+
+
+/* body{
+    background-color: #1E1E1E;
+}
+
+.head1{
+    color: white;
+    font-weight: 100;
+    border: solid white 2px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.profi-block{
+    border: solid white 2px;
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.imag{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+
+.para{
+    color: white;
+    padding-top: 25px;
+}
+
+.block2{
+    padding-top: 5px;
+    color: white;
+    spac
+}
+
+li{
+    margin: 7px;
+}
+
+.para2{
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 19px;
+}
+
+.material-icons{
+    color: white;
+    padding-left:30px ;
+}
+
+.span-p{
+    color: white;
+} */
